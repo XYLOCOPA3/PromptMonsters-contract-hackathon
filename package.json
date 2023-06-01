@@ -1,0 +1,26 @@
+{
+  "name": "hardhat-project",
+  "scripts": {
+    "node": "npx hardhat node",
+    "clean": "npx hardhat clean",
+    "compile": "npx hardhat compile",
+    "test-prompt-monsters": "REPORT_GAS=true npx hardhat test test/prompt-monsters/PromptMonsters.ts",
+    "test-prompt-monsters-image": "REPORT_GAS=true npx hardhat test test/prompt-monsters-image/PromptMonstersImage.ts",
+    "test": "npm run test-prompt-monsters && npm run test-prompt-monsters-image",
+    "predeploy": "npm run test-$npm_config_name",
+    "deploy": "npx hardhat run scripts/$npm_config_name/deploy.ts --network $npm_config_network",
+    "size": "npx hardhat size-contracts"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@openzeppelin/hardhat-upgrades": "^1.22.1",
+    "hardhat": "^2.13.1",
+    "hardhat-contract-sizer": "^2.8.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.3",
+    "@openzeppelin/contracts-upgradeable": "^4.8.3",
+    "axios": "^1.3.5",
+    "dotenv": "^16.0.3"
+  }
+}
