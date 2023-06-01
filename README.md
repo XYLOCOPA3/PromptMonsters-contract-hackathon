@@ -4,7 +4,7 @@
 
 PromptMonsters is a blockchain game using Gen-AI as the game engine.
 
-[Play now](https://prompt-monsters.com/)
+[Play now](https://prompt-monsters.com/)  
 [NFT Marketplace](https://tofunft.com/ja/collection/promptmonsters/items)
 
 ## Getting started
