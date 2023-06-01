@@ -12,7 +12,6 @@ PromptMonsters is a blockchain game using Gen-AI as the game engine.
 ```shell
 npm i
 npm run test
-# Input .env
 ```
 
 ## Architecture
