@@ -15,6 +15,13 @@ export const PROMPT_MONSTERS_WALLET =
 export const MINT_PRICE = ethers.utils.parseEther("50");
 
 // --------------------------------------------------
+// PromptMonstersExtension
+// --------------------------------------------------
+
+export const PROMPT_MONSTERS_EXTENSION_PROXY_ADDRESS =
+  "0x0000000000000000000000000000000000000000";
+
+// --------------------------------------------------
 // PromptMonstersImage
 // --------------------------------------------------
 

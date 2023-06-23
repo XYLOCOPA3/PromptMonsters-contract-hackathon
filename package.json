@@ -5,6 +5,7 @@
     "clean": "npx hardhat clean",
     "compile": "npx hardhat compile",
     "test-prompt-monsters": "REPORT_GAS=true npx hardhat test test/prompt-monsters/PromptMonsters.ts",
+    "test-prompt-monsters-extension": "REPORT_GAS=true npx hardhat test test/prompt-monsters-extension/PromptMonstersExtension.ts",
     "test-prompt-monsters-image": "REPORT_GAS=true npx hardhat test test/prompt-monsters-image/PromptMonstersImage.ts",
     "test": "npm run test-prompt-monsters && npm run test-prompt-monsters-image",
     "predeploy": "npm run test-$npm_config_name",
